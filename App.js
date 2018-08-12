@@ -32,7 +32,6 @@ class WelcomeView extends Component {
         <Text style={styles.text}>Cliquez sur le bouton "Commencer"</Text><Text>{sautDeLigne}</Text>
         <Text style={styles.text}>pour démarrer le questionnaire</Text><Text>{sautDeLigne}</Text>
         <Button style={styles.button} onPress={() => navigate('FlatLDemo')} title="Commencer"/>
-        <Button style={styles.button} onPress={() => navigate('ReportView')} title="Rapport"/>
       </View>
     </SafeAreaView>
     );
