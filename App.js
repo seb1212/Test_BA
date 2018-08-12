@@ -192,7 +192,7 @@ class ReportView extends Component {
 }
 
 const App = createStackNavigator({
-  Test: {screen: MyWeb},
+//  Test: {screen: MyWeb},
   Welcome: {screen: WelcomeView},
   Questions: {screen: QuestionsView},
   Report: {screen: ReportView},
