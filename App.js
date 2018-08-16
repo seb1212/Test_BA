@@ -25,7 +25,7 @@ class WelcomeView extends Component {
   render() {
     const sautDeLigne = '\n';
     const { navigate } = this.props.navigation;
-
+    console.log("je démarre !!!")
     return (
       <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
